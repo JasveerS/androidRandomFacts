@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:padding="30dp"
+    android:id="@+id/relative_layout"
+    tools:context="com.example.android.funfact.MainActivity">
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/did_you_know"
+        android:textColor="#90ffffff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/fun_facts"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="There is somthing interstnsf in sdfsdf sdfsdf sfsdffdsfdfsfsdfsdf"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/show_fun_Fact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#4CAF50"
+        android:text="@string/show_another_fun_fact" />
+
+</RelativeLayout>
