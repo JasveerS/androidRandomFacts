@@ -23,21 +23,20 @@ public class BackgroundColor {
             "#2196F3",
             "#00838F",
             "#004D40",
-            "#E65100" };
+            "#E65100"};
 
     /**
-     *
      * @return random colors
      */
-    int getColor(){
+    int getColor() {
         //random number generator for random getFacts
-        Random randomFacts=new Random();
+        Random randomFacts = new Random();
         //android getFacts
 
-        int number=randomFacts.nextInt(colors.length);
+        int number = randomFacts.nextInt(colors.length);
 
         //returning new colors randomly
-        int color= Color.parseColor(colors[number]);
+        int color = Color.parseColor(colors[number]);
         return color;
     }
 }

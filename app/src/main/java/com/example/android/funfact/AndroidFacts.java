@@ -6,7 +6,7 @@ import java.util.Random;
  * Created by jasveer on 4/15/2018.
  */
 
- class AndroidFacts {
+class AndroidFacts {
     /**
      * array for all getFacts about few getFacts about android
      */
@@ -21,18 +21,17 @@ import java.util.Random;
             "Microsoft makes an astounding $2 billion a year from Android in the form of patent royalties",
             "The first Android prototype looked a lot like a Blackberry",
             "It is based on the open source operating system Linux",
-            "Android was originally created as an operating system for digital cameras" };
+            "Android was originally created as an operating system for digital cameras"};
 
     /**
-     *
      * @return random getFacts
      */
-     String getFacts(){
+    String getFacts() {
         //random number generator for random getFacts
-        Random randomFacts=new Random();
+        Random randomFacts = new Random();
         //android getFacts
 
-        int number=randomFacts.nextInt(andoridFacts.length);
+        int number = randomFacts.nextInt(andoridFacts.length);
 
         //returning new getFacts randomly
         return andoridFacts[number];
